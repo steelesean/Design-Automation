@@ -1,0 +1,128 @@
+WHAT IS A REST API?
+==================
+
+A learning note for design leaders exploring technical concepts
+
+
+WHAT IT IS (SIMPLE TERMS)
+-------------------------
+
+Think of a REST API as a waiter in a restaurant.
+
+You (the customer) don't go into the kitchen to make your food. Instead, you tell the waiter what you want, and the waiter brings it back to you. The waiter is the middleman who knows how to communicate with the kitchen.
+
+A REST API works the same way between software systems:
+- Your application (the customer) needs data or wants to perform an action
+- The API (the waiter) takes that request to another system (the kitchen)
+- The API returns the result back to your application
+
+REST stands for "Representational State Transfer" - but you don't need to memorize that. What matters is understanding that it's a standardized way for software to talk to other software over the internet.
+
+Key characteristics:
+- Uses simple web addresses (URLs) to identify resources
+- Uses standard actions: GET (read), POST (create), PUT (update), DELETE (remove)
+- Returns data in formats like JSON (structured text that looks like organized lists)
+
+
+WHY IT MATTERS FOR DESIGN AUTOMATION
+------------------------------------
+
+In financial services design automation, REST APIs are the connective tissue between your tools and systems:
+
+1. CONNECTING YOUR DESIGN TOOLS
+   Figma, design systems, and asset libraries all expose REST APIs. This means
+   you can programmatically pull designs, check for updates, or push assets
+   without manual downloads and uploads.
+
+2. INTEGRATING WITH COMPLIANCE SYSTEMS
+   Financial services require audit trails and approvals. APIs let your design
+   workflows automatically log changes, request sign-offs, and verify that
+   assets meet regulatory requirements.
+
+3. AUTOMATING HANDOFFS
+   Instead of manually exporting and sending files, an API can automatically
+   deliver approved designs to development teams, content management systems,
+   or marketing platforms.
+
+4. REAL-TIME DATA IN PROTOTYPES
+   Want to show actual (anonymized) portfolio data in a prototype? APIs make
+   it possible to pull live information into design mockups.
+
+
+A CONCRETE EXAMPLE
+------------------
+
+Scenario: Automating brand asset distribution
+
+Your team updates the brand color palette. In a manual world:
+- Designer updates colors in the design system
+- Someone exports updated assets
+- Files get emailed or uploaded to various teams
+- Developers manually update their codebases
+- Inconsistencies creep in
+
+With REST APIs:
+- Designer updates colors in Figma
+- An automated script calls Figma's REST API to detect the change
+- The script calls your internal design system API to update color tokens
+- Another API call notifies the development team's system
+- Code repositories automatically receive pull requests with updates
+
+The API call might look conceptually like this:
+
+  GET https://api.figma.com/v1/files/{file-id}/styles
+
+  Returns: List of all colors, fonts, and effects in the file
+
+  POST https://internal-design-system.yourbank.com/tokens/colors
+  Body: { "primary-blue": "#0052CC", "updated-by": "automation" }
+
+No manual file transfers. No version confusion. Changes propagate in minutes, not days.
+
+
+WHAT TO EXPLORE NEXT
+--------------------
+
+1. LOOK AT FIGMA'S API DOCUMENTATION
+   https://www.figma.com/developers/api
+   See what's possible with design tool APIs specifically.
+
+2. LEARN ABOUT WEBHOOKS
+   These are "reverse APIs" - instead of you asking for data, systems notify
+   you when something changes. Powerful for triggering automated workflows.
+
+3. UNDERSTAND AUTHENTICATION
+   APIs need to know who's calling them. Learn about API keys and OAuth -
+   these are how systems verify identity and permissions.
+
+4. EXPLORE NO-CODE API TOOLS
+   Tools like Zapier, Make (formerly Integromat), or Postman let you
+   experiment with APIs without writing code. Great for prototyping workflows.
+
+5. ASK YOUR DEVELOPMENT TEAM
+   What internal APIs already exist at your organization? You might be
+   surprised what's already available to connect to.
+
+
+KEY VOCABULARY
+--------------
+
+Endpoint    - A specific URL where an API can be reached
+Request     - What you send to an API (asking for something)
+Response    - What the API sends back
+JSON        - A common data format APIs use (looks like nested lists)
+HTTP        - The protocol APIs use to communicate (same as web browsers)
+Status code - A number indicating success (200) or error (404, 500, etc.)
+
+
+REMEMBER
+--------
+
+You don't need to write API code yourself. Your role is to:
+- Understand what APIs make possible
+- Identify opportunities for automation in your workflows
+- Communicate effectively with developers about what you want to achieve
+- Ask the right questions: "Does this system have an API? What can it do?"
+
+APIs are the building blocks of modern automation. Once you see them, you'll
+notice opportunities everywhere.

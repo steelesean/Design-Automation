@@ -1,0 +1,150 @@
+FUTURE COMMAND IDEA
+===================
+Auto-generate accessibility audit from Figma file
+
+Captured: 2026-01-28
+
+
+1. COMMAND NAME
+---------------
+accessibility-audit <figma-file-url>
+
+Example usage:
+  ./commands/accessibility-audit.sh "https://figma.com/file/abc123/MyDesign"
+  ./commands/accessibility-audit.sh "https://figma.com/file/abc123" --level AA --format html
+
+
+2. PURPOSE
+----------
+Catch accessibility issues at design stage before they become expensive
+development fixes. Automate WCAG compliance checking for:
+- Color contrast ratios
+- Touch target sizes
+- Text sizing and readability
+- Missing alt text annotations
+- Focus order and hierarchy issues
+
+Problem it solves: Manual accessibility reviews are time-consuming,
+inconsistent, and often happen too late in the process. This command
+shifts a11y left into the design workflow.
+
+
+3. INPUTS NEEDED
+----------------
+Required:
+- Figma file URL or file key
+- Figma API token (from environment variable)
+
+Optional:
+- WCAG conformance level (A, AA, or AAA) - default: AA
+- Specific pages or frames to audit
+- Output format preference (markdown, HTML, JSON)
+- Severity threshold for reporting
+
+
+4. OUTPUTS GENERATED
+--------------------
+Primary:
+- Accessibility audit report with issues ranked by severity
+- Each issue includes: location, WCAG criterion violated, current value,
+  required value, remediation guidance
+
+Optional:
+- Linear tickets for each issue (grouped by component/page)
+- Summary statistics (pass/fail rates, issue distribution)
+- Before/after comparison if re-running audit
+- Developer handoff notes with a11y specifications
+
+
+5. KEY STEPS
+------------
+1. AUTHENTICATE - Validate Figma API token
+2. FETCH - Pull file data via Figma API (nodes, styles, components)
+3. PARSE - Extract relevant properties (colors, dimensions, text styles)
+4. CHECK CONTRAST - Calculate contrast ratios for all text/background pairs
+5. CHECK TARGETS - Verify interactive elements meet minimum touch sizes
+6. CHECK TEXT - Validate text sizes, line heights, spacing
+7. CHECK STRUCTURE - Analyze heading hierarchy and reading order
+8. GENERATE REPORT - Compile findings with severity and remediation
+9. DISTRIBUTE - Save report and optionally create Linear tickets
+
+
+6. TOOLS/APIs REQUIRED
+----------------------
+Essential:
+- Figma API (file data, styles, components)
+- Color contrast calculation library (or custom implementation)
+
+Recommended:
+- Linear API (for automated ticket creation)
+- Google Docs API (for shareable reports)
+- Slack API (for notifications)
+
+Optional:
+- Design tokens library (to check against defined standards)
+
+
+7. ESTIMATED COMPLEXITY
+-----------------------
+COMPLEX
+
+Reasons:
+- Figma's nested node structure requires recursive parsing
+- Contrast calculation needs to handle gradients, opacity, overlays
+- Determining "interactive" elements requires heuristics or annotations
+- False positive management (e.g., decorative elements)
+- WCAG criteria interpretation has nuance
+
+Recommended approach: Build in phases
+- Phase 1 (MVP): Contrast checking only
+- Phase 2: Add touch target and text size checks
+- Phase 3: Add structure analysis and Linear integration
+- Phase 4: Add historical comparison and trends
+
+
+8. QUESTIONS TO ANSWER BEFORE BUILDING
+--------------------------------------
+Scope:
+- Which WCAG criteria are highest priority for your designs?
+- Should this check components in isolation or in context?
+- How to handle components used across multiple files?
+
+Technical:
+- How to identify which elements are interactive vs decorative?
+- How to handle dynamic/conditional states (hover, focus, etc.)?
+- What's the strategy for gradient and image backgrounds?
+
+False Positives:
+- How to mark elements as "reviewed and acceptable"?
+- Should there be a way to add exceptions/overrides?
+
+Integration:
+- Should issues auto-create Linear tickets or require approval?
+- How to handle re-audits (update existing tickets vs create new)?
+- Who receives notifications and in what format?
+
+Output:
+- What level of detail do designers vs developers need?
+- Should the report include visual screenshots of issues?
+
+
+RELATED COMMANDS
+----------------
+1. design-system-audit
+   Check that designs use approved design system components and tokens.
+   Catches drift from standards.
+
+2. figma-to-wcag-checklist
+   Generate a developer handoff document with accessibility specifications
+   (aria labels, focus order, keyboard interactions) for each component.
+
+3. accessibility-fix-tracker
+   Track accessibility issues from audit through resolution. Shows progress
+   over time and identifies recurring problem areas.
+
+
+NOTES
+-----
+- Consider integrating with existing a11y tools (axe-core concepts, Stark)
+- Figma plugins exist for this - study their approach and limitations
+- Could pair with automated screenshot testing for visual regression

@@ -1,0 +1,8 @@
+LEARNING: What is an API
+Date: 2026-01-28
+
+[This is where Claude's explanation would appear]
+
+To make this work fully, you'll run this through Claude Code.
+
+For now, this demonstrates the file structure.
