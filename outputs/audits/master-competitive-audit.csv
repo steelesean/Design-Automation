@@ -26,7 +26,7 @@ Aviva,Competitor,Emotional Design,24,Friendly human language,3,Medium,"Customer 
 Aviva,Competitor,Emotional Design,25,Avoids blame in errors,1,Low,No specific evidence of error messaging tone.,Extensive search conducted
 Aviva,Competitor,Emotional Design,26,Supportive service interactions,5,High,"Customer service highly praised: 'most comforting, easiest and compassionate experience'. Helpful staff highlighted repeatedly.",Trustpilot
 Aviva,Competitor,Emotional Design,27,Visual celebration of progress,1,Low,No evidence of progress celebrations or gamification elements.,Extensive search conducted
-Aviva,Competitor,Emotional Design,28,Clear sense of completion,3,Medium,Investment calculators show projected outcomes. Account setup has defined steps.,aviva.co.uk
+Aviva,Competitor,Emotional Design,28,Clear sense of completion,4,Medium,Investment calculators show projected outcomes. Account setup has defined steps.,aviva.co.uk
 Aviva,Competitor,Emotional Design,29,Onboarding that builds confidence,3,Medium,Staff provide walkthroughs: 'so incredibly helpful in talking me through how to open a stocks and shares ISA'. Guidance available.,Trustpilot
 Aviva,Competitor,Emotional Design,30,Options to pace work,3,Medium,Multiple investment approaches from automated to self-directed. Users can choose engagement level.,aviva.co.uk
 Aviva,Competitor,Emotional Design,31,Predictable updates and change notices,1,Low,No evidence of proactive change communication. Some users surprised by fee changes.,Extensive search conducted
@@ -160,7 +160,7 @@ Quilter,Competitor,Emotional Design,22,Gentle purposeful animation,1,Low,No evid
 Quilter,Competitor,Emotional Design,23,Dark mode / theme controls,1,Low,No evidence of dark mode.,Extensive search conducted
 Quilter,Competitor,Emotional Design,24,Friendly human language,3,Medium,Professional tone. Beginner-friendly content on Quilter Invest.,quilterinvest.com
 Quilter,Competitor,Emotional Design,25,Avoids blame in errors,1,Low,No evidence of error messaging tone.,Extensive search conducted
-Quilter,Competitor,Emotional Design,26,Supportive service interactions,3,Medium,Customer service available. No specific service interaction praise found.,quilter.com
+Quilter,Competitor,Emotional Design,26,Supportive service interactions,2,Medium,Customer service available. No specific service interaction praise found.,quilter.com
 Quilter,Competitor,Emotional Design,27,Visual celebration of progress,1,Low,No evidence of progress celebrations.,Extensive search conducted
 Quilter,Competitor,Emotional Design,28,Clear sense of completion,3,Medium,Transaction confirmations. Investment setup completion clear.,quilter.com
 Quilter,Competitor,Emotional Design,29,Onboarding that builds confidence,3,Medium,'Helpful guides for beginner investors'. Quilter Invest aimed at novices.,quilterinvest.com
@@ -231,7 +231,7 @@ AJ Bell,Competitor,Emotional Design,25,Avoids blame in errors,1,Low,No error mes
 AJ Bell,Competitor,Emotional Design,26,Supportive service interactions,5,High,'Efficient customer service' praised. Good support ratings.,InvestingReviews
 AJ Bell,Competitor,Emotional Design,27,Visual celebration of progress,1,Low,No gamification elements.,Extensive search conducted
 AJ Bell,Competitor,Emotional Design,28,Clear sense of completion,3,Medium,Transaction confirmations. Clear completion states.,aj-bell.co.uk
-AJ Bell,Competitor,Emotional Design,29,Onboarding that builds confidence,5,High,'Perfect for beginners'. 'Good choice for beginner investors'. Dodl specifically designed for novices.,BrokerChooser
+AJ Bell,Competitor,Emotional Design,29,Onboarding that builds confidence,4,High,'Perfect for beginners'. 'Good choice for beginner investors'. Dodl specifically designed for novices.,BrokerChooser
 AJ Bell,Competitor,Emotional Design,30,Options to pace work,3,Medium,Self-directed investing allows own pace.,aj-bell.co.uk
 AJ Bell,Competitor,Emotional Design,31,Predictable updates and change notices,3,Medium,Market updates available. No complaints about surprise changes.,aj-bell.co.uk
 AJ Bell,Competitor,Emotional Design,32,Clear separation of safe vs dangerous actions,1,Low,No specific warning systems evident.,Extensive search conducted
@@ -362,9 +362,9 @@ Revolut,Fintech Leader,Ease of Use,20,Consistent across devices,5,High,App and w
 Revolut,Fintech Leader,Emotional Design,21,Clean calm design with clear hierarchy,5,High,'Vibrant accent colors paired with ample white space'. Card-based layout guides attention.,Fintech UI analysis
 Revolut,Fintech Leader,Emotional Design,22,Gentle purposeful animation,5,High,Smooth transitions. Payment animations. Feature reveals.,revolut.com
 Revolut,Fintech Leader,Emotional Design,23,Dark mode / theme controls,5,High,Dark mode available. Theme customization. Card design options.,revolut.com
-Revolut,Fintech Leader,Emotional Design,24,Friendly human language,3,Medium,Clear communication. Professional tone. Some users find support impersonal.,revolut.com; Trustpilot
+Revolut,Fintech Leader,Emotional Design,24,Friendly human language,2,Medium,Clear communication. Professional tone. Some users find support impersonal.,revolut.com; Trustpilot
 Revolut,Fintech Leader,Emotional Design,25,Avoids blame in errors,3,Medium,Standard error messages. Some complaints about account freeze communication.,Trustpilot
-Revolut,Fintech Leader,Emotional Design,26,Supportive service interactions,1,Low,'Customer support recurring pain point'. 'Slow response times'. Chat-only frustrates users.,Trustpilot; Digital Nomads World
+Revolut,Fintech Leader,Emotional Design,26,Supportive service interactions,2,Low,'Customer support recurring pain point'. 'Slow response times'. Chat-only frustrates users.,Trustpilot; Digital Nomads World
 Revolut,Fintech Leader,Emotional Design,27,Visual celebration of progress,3,Medium,Savings goal progress. Some gamification in Junior accounts.,revolut.com
 Revolut,Fintech Leader,Emotional Design,28,Clear sense of completion,5,High,Transaction confirmations. Transfer completion screens. Clear status.,revolut.com
 Revolut,Fintech Leader,Emotional Design,29,Onboarding that builds confidence,5,High,'Mobile-first onboarding introduces features gradually'. Quick setup. Immediate utility.,Fintech UI analysis
@@ -433,9 +433,9 @@ Wise,Fintech Leader,Emotional Design,23,Dark mode / theme controls,1,Low,No dark
 Wise,Fintech Leader,Emotional Design,24,Friendly human language,5,High,"Clear, non-technical language. Transparent communication praised.",Trustpilot
 Wise,Fintech Leader,Emotional Design,25,Avoids blame in errors,3,Medium,Standard error handling. Helpful error messages.,wise.com
 Wise,Fintech Leader,Emotional Design,26,Supportive service interactions,5,High,'Multi-channel customer support'. Support praised. 4.3/5 Trustpilot with 265K reviews.,Trustpilot
-Wise,Fintech Leader,Emotional Design,27,Visual celebration of progress,3,Medium,Transfer completion celebrations. Basic progress feedback.,wise.com
+Wise,Fintech Leader,Emotional Design,27,Visual celebration of progress,2,Medium,Transfer completion celebrations. Basic progress feedback.,wise.com
 Wise,Fintech Leader,Emotional Design,28,Clear sense of completion,5,High,Transfer complete screens. Recipient notification. Clear confirmation.,wise.com
-Wise,Fintech Leader,Emotional Design,29,Onboarding that builds confidence,3,Medium,Quick start but '15-step registration flow' criticized. 'No progress indicators' noted.,IXD Pratt critique
+Wise,Fintech Leader,Emotional Design,29,Onboarding that builds confidence,2,Medium,Quick start but '15-step registration flow' criticized. 'No progress indicators' noted.,IXD Pratt critique
 Wise,Fintech Leader,Emotional Design,30,Options to pace work,3,Medium,Self-directed usage. Choose when to transfer.,wise.com
 Wise,Fintech Leader,Emotional Design,31,Predictable updates and change notices,3,Medium,Transparent about changes. Rate notifications.,wise.com
 Wise,Fintech Leader,Emotional Design,32,Clear separation of safe vs dangerous actions,5,High,Card lock prominent. Clear warnings on large transfers.,wise.com
@@ -498,7 +498,7 @@ Netflix,Market Leader,Ease of Use,20,Consistent across devices,5,High,'Omnichann
 Netflix,Market Leader,Emotional Design,21,Clean calm design with clear hierarchy,5,High,'Core philosophy is to make moment of truth as quickly and effortlessly as possible'. Clean dark interface.,CXL
 Netflix,Market Leader,Emotional Design,22,Gentle purposeful animation,5,High,Smooth transitions. Preview animations. Hover effects. Reveal animations.,netflix.com
 Netflix,Market Leader,Emotional Design,23,Dark mode / theme controls,5,High,Dark interface by default. Optimized for viewing. Kids mode brighter.,netflix.com
-Netflix,Market Leader,Emotional Design,24,Friendly human language,3,Medium,Content descriptions. Some personalization in tone. Generally neutral.,netflix.com
+Netflix,Market Leader,Emotional Design,24,Friendly human language,2,Medium,Content descriptions. Some personalization in tone. Generally neutral.,netflix.com
 Netflix,Market Leader,Emotional Design,25,Avoids blame in errors,3,Medium,Connection issues handled gracefully. Retry options clear.,netflix.com
 Netflix,Market Leader,Emotional Design,26,Supportive service interactions,3,Medium,Help center. Chat support. Phone support available.,netflix.com
 Netflix,Market Leader,Emotional Design,27,Visual celebration of progress,3,Medium,Episode completion. Series progress bars.,netflix.com
@@ -631,7 +631,7 @@ Amazon,Market Leader,Ease of Use,17,Works on poor connections,3,Medium,Some offl
 Amazon,Market Leader,Ease of Use,18,Strong WCAG support,3,Medium,Accessibility features present. Screen reader support. Could improve.,amazon.com
 Amazon,Market Leader,Ease of Use,19,Security without burden (MFA SSO),5,High,Biometric login. One-click purchase. Simple authentication.,amazon.com
 Amazon,Market Leader,Ease of Use,20,Consistent across devices,5,High,"Web, app, Alexa, Fire TV. 'Omnichannel approach'. Seamless experience.",Uptech UX study
-Amazon,Market Leader,Emotional Design,21,Clean calm design with clear hierarchy,3,Medium,Functional design. Information-dense. Not minimalist but organized.,amazon.com
+Amazon,Market Leader,Emotional Design,21,Clean calm design with clear hierarchy,2,Medium,Functional design. Information-dense. Not minimalist but organized.,amazon.com
 Amazon,Market Leader,Emotional Design,22,Gentle purposeful animation,3,Medium,Cart animations. Loading states. Functional animations.,amazon.com
 Amazon,Market Leader,Emotional Design,23,Dark mode / theme controls,3,Medium,Dark mode available on app. Limited customization.,amazon.com
 Amazon,Market Leader,Emotional Design,24,Friendly human language,3,Medium,Professional tone. Seller variety affects consistency.,amazon.com
