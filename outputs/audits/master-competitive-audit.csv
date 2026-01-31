@@ -47,7 +47,7 @@ Aviva,Competitor,Decision Support,45,Visualizations of complex info,3,Medium,Inv
 Aviva,Competitor,Decision Support,46,In-context definitions/glossaries,1,Low,No evidence of inline glossaries or tooltips with definitions.,Extensive search conducted
 Aviva,Competitor,Decision Support,47,Time-anchored reminders,1,Low,No evidence of proactive reminder systems.,Extensive search conducted
 Aviva,Competitor,Decision Support,48,Side-by-side comparisons,3,Medium,Fund selection tools allow comparison. Experts' Shortlist curates options. Basic comparison available.,aviva.co.uk
-Aviva,Competitor,Decision Support,49,Scenario tools (what-if analysis),5,High,"Multiple calculators: investment growth, compound interest, ISA, pension, annuity. Projection tools available.",aviva.co.uk
+Aviva,Competitor,Decision Support,49,Scenario tools (what-if analysis),4,High,"Multiple calculators: investment growth, compound interest, ISA, pension, annuity. Projection tools available.",aviva.co.uk
 Aviva,Competitor,Decision Support,50,Transparent cost breakdowns,3,Medium,Fees displayed but some users note platform 'starts to become more expensive than competitors for £25k+'. Pricing could be clearer.,Which?
 Aviva,Competitor,Decision Support,51,Recommendations / next-best-actions,3,Medium,Risk profiler suggests appropriate funds. Ready-made portfolios recommended based on risk appetite.,aviva.co.uk
 Aviva,Competitor,Decision Support,52,Highlighting of risks/anomalies,3,Medium,Risk levels clearly labeled on funds. Risk profiler tool assesses suitability.,aviva.co.uk
@@ -117,7 +117,7 @@ Transact,Competitor,Decision Support,47,Time-anchored reminders,1,Low,No evidenc
 Transact,Competitor,Decision Support,48,Side-by-side comparisons,3,Medium,Fund comparison tools available. Performance comparison charts.,transact-online.co.uk
 Transact,Competitor,Decision Support,49,Scenario tools (what-if analysis),3,Medium,CGT calculator available. Rebalancing reports show impact.,transact-online.co.uk
 Transact,Competitor,Decision Support,50,Transparent cost breakdowns,3,Medium,Fee information available. Platform charges disclosed.,transact-online.co.uk
-Transact,Competitor,Decision Support,51,Recommendations / next-best-actions,1,Low,Adviser-driven recommendations rather than platform-generated.,Extensive search conducted
+Transact,Competitor,Decision Support,51,Recommendations / next-best-actions,2,Low,Adviser-driven recommendations rather than platform-generated.,Extensive search conducted
 Transact,Competitor,Decision Support,52,Highlighting of risks/anomalies,3,Medium,Risk profiling capability mentioned. Fund risk indicators.,transact-online.co.uk
 Transact,Competitor,Decision Support,53,AI assistants for drafting/summarizing,5,High,Building 'best AI-ready ecosystem'. Curo CRM with Microsoft Copilot integration. AI tools for advisers.,Money Marketing
 Transact,Competitor,Decision Support,54,Data provenance (source freshness),3,Medium,Real-time data feeds. Transaction history with timestamps.,transact-online.co.uk
@@ -182,7 +182,7 @@ Quilter,Competitor,Decision Support,44,Clear layered explanations,3,Medium,Educa
 Quilter,Competitor,Decision Support,45,Visualizations of complex info,5,High,"'Customizable time ranges, performance graphs'. Visual performance tracking praised.",App Store
 Quilter,Competitor,Decision Support,46,In-context definitions/glossaries,1,Low,No evidence of inline definitions.,Extensive search conducted
 Quilter,Competitor,Decision Support,47,Time-anchored reminders,1,Low,No evidence of reminder systems.,Extensive search conducted
-Quilter,Competitor,Decision Support,48,Side-by-side comparisons,1,Low,No comparison tools evident.,Extensive search conducted
+Quilter,Competitor,Decision Support,48,Side-by-side comparisons,2,Low,No comparison tools evident.,Extensive search conducted
 Quilter,Competitor,Decision Support,49,Scenario tools (what-if analysis),1,Low,No scenario calculators found.,Extensive search conducted
 Quilter,Competitor,Decision Support,50,Transparent cost breakdowns,3,Medium,Fee information available. Some complaints about fee increases.,quilter.com; Money To The Masses
 Quilter,Competitor,Decision Support,51,Recommendations / next-best-actions,1,Low,No automated recommendations evident.,Extensive search conducted
@@ -249,7 +249,7 @@ AJ Bell,Competitor,Social Proof & Belonging,43,Status indicators (badges certifi
 AJ Bell,Competitor,Decision Support,44,Clear layered explanations,3,Medium,Educational content. Investment guides.,aj-bell.co.uk
 AJ Bell,Competitor,Decision Support,45,Visualizations of complex info,3,Medium,Performance charts. Portfolio views. 'Technical research tools quite basic'.,BrokerChooser
 AJ Bell,Competitor,Decision Support,46,In-context definitions/glossaries,1,Low,No inline definitions evident.,Extensive search conducted
-AJ Bell,Competitor,Decision Support,47,Time-anchored reminders,1,Low,No price alerts in app. 'You cannot set price alerts'.,BrokerChooser
+AJ Bell,Competitor,Decision Support,47,Time-anchored reminders,2,Low,No price alerts in app. 'You cannot set price alerts'.,BrokerChooser
 AJ Bell,Competitor,Decision Support,48,Side-by-side comparisons,3,Medium,Fund comparison available. Basic comparison tools.,aj-bell.co.uk
 AJ Bell,Competitor,Decision Support,49,Scenario tools (what-if analysis),3,Medium,Calculators available on website.,aj-bell.co.uk
 AJ Bell,Competitor,Decision Support,50,Transparent cost breakdowns,5,High,'Clear pricing structure' praised. 'Competitive fees'. Transparent fee schedule.,InvestingReviews; BrokerChooser
@@ -318,7 +318,7 @@ Monzo,Fintech Leader,Decision Support,44,Clear layered explanations,5,High,Plain
 Monzo,Fintech Leader,Decision Support,45,Visualizations of complex info,5,High,Spending graphs. Trends analysis. Visual budget breakdowns. Category charts.,monzo.com
 Monzo,Fintech Leader,Decision Support,46,In-context definitions/glossaries,3,Medium,Help articles. Contextual explanations available.,monzo.com
 Monzo,Fintech Leader,Decision Support,47,Time-anchored reminders,5,High,Bill reminders. Subscription tracking. Payment due notifications.,monzo.com
-Monzo,Fintech Leader,Decision Support,48,Side-by-side comparisons,1,Low,No comparison tools. Single bank view.,Extensive search conducted
+Monzo,Fintech Leader,Decision Support,48,Side-by-side comparisons,2,Low,No comparison tools. Single bank view.,Extensive search conducted
 Monzo,Fintech Leader,Decision Support,49,Scenario tools (what-if analysis),3,Medium,Budget projections. 'Left to spend' calculations.,monzo.com
 Monzo,Fintech Leader,Decision Support,50,Transparent cost breakdowns,5,High,Clear fee display. No hidden charges. Transparent FX rates.,monzo.com
 Monzo,Fintech Leader,Decision Support,51,Recommendations / next-best-actions,3,Medium,Suggested categories. Some automated suggestions.,monzo.com
@@ -391,7 +391,7 @@ Revolut,Fintech Leader,Decision Support,49,Scenario tools (what-if analysis),3,M
 Revolut,Fintech Leader,Decision Support,50,Transparent cost breakdowns,5,High,'Transparent pricing'. Fee-free FX clearly shown. Plan costs clear.,revolut.com
 Revolut,Fintech Leader,Decision Support,51,Recommendations / next-best-actions,3,Medium,Feature suggestions. Upgrade prompts. Contextual offers.,revolut.com
 Revolut,Fintech Leader,Decision Support,52,Highlighting of risks/anomalies,5,High,Fraud alerts. Unusual activity flags. Security notifications.,revolut.com
-Revolut,Fintech Leader,Decision Support,53,AI assistants for drafting/summarizing,3,Medium,Rita chatbot for support. Some AI features emerging.,revolut.com
+Revolut,Fintech Leader,Decision Support,53,AI assistants for drafting/summarizing,2,Medium,Rita chatbot for support. Some AI features emerging.,revolut.com
 Revolut,Fintech Leader,Decision Support,54,Data provenance (source freshness),5,High,Real-time exchange rates. Live market data. Instant updates.,revolut.com
 Revolut,Fintech Leader,Decision Support,55,Clear what happens next signposting,5,High,Transfer status. Expected delivery. Clear progression.,revolut.com
 Revolut,Fintech Leader,Decision Support,56,Activity logs (audit trail),5,High,Complete transaction history. Detailed records. Export options.,revolut.com
@@ -453,7 +453,7 @@ Wise,Fintech Leader,Social Proof & Belonging,43,Status indicators (badges certif
 Wise,Fintech Leader,Decision Support,44,Clear layered explanations,5,High,'Upfront pricing without surprise charges'. Clear fee explanations. Transparent.,Scot Onomics
 Wise,Fintech Leader,Decision Support,45,Visualizations of complex info,5,High,Exchange rate graphs. Fee breakdown visuals. Comparison charts.,wise.com
 Wise,Fintech Leader,Decision Support,46,In-context definitions/glossaries,3,Medium,Help explanations. Currency information available.,wise.com
-Wise,Fintech Leader,Decision Support,47,Time-anchored reminders,3,Medium,Rate alerts. Transfer reminders available.,wise.com
+Wise,Fintech Leader,Decision Support,47,Time-anchored reminders,4,Medium,Rate alerts. Transfer reminders available.,wise.com
 Wise,Fintech Leader,Decision Support,48,Side-by-side comparisons,5,High,Rate comparison vs banks. Fee comparison tools. Transparency focus.,wise.com
 Wise,Fintech Leader,Decision Support,49,Scenario tools (what-if analysis),5,High,Currency converter. Rate calculator. Fee estimator before transfer.,wise.com
 Wise,Fintech Leader,Decision Support,50,Transparent cost breakdowns,5,High,'Fees clearly displayed upfront'. 'No hidden costs'. Mid-market rate transparency.,Trustpilot; Scot Onomics
@@ -526,7 +526,7 @@ Netflix,Market Leader,Decision Support,48,Side-by-side comparisons,1,Low,No cont
 Netflix,Market Leader,Decision Support,49,Scenario tools (what-if analysis),1,Low,Not applicable to streaming.,Not applicable
 Netflix,Market Leader,Decision Support,50,Transparent cost breakdowns,5,High,Clear plan pricing. No hidden fees. Transparent billing.,netflix.com
 Netflix,Market Leader,Decision Support,51,Recommendations / next-best-actions,5,High,World-class recommendations. 'Your Next Watch'. Personalized rows. AI-driven suggestions.,Times of AI
-Netflix,Market Leader,Decision Support,52,Highlighting of risks/anomalies,1,Low,Content warnings for mature content. Basic only.,netflix.com
+Netflix,Market Leader,Decision Support,52,Highlighting of risks/anomalies,2,Low,Content warnings for mature content. Basic only.,netflix.com
 Netflix,Market Leader,Decision Support,53,AI assistants for drafting/summarizing,3,Medium,AI-powered search in 2025. Natural language queries. No chat assistant.,Times of AI
 Netflix,Market Leader,Decision Support,54,Data provenance (source freshness),3,Medium,New content flagged. Recently added sections.,netflix.com
 Netflix,Market Leader,Decision Support,55,Clear what happens next signposting,5,High,Next episode auto-queued. Post-play recommendations. Clear continuation.,netflix.com
@@ -659,7 +659,7 @@ Amazon,Market Leader,Decision Support,45,Visualizations of complex info,3,Medium
 Amazon,Market Leader,Decision Support,46,In-context definitions/glossaries,1,Low,Limited definitions. Product-specific info.,amazon.com
 Amazon,Market Leader,Decision Support,47,Time-anchored reminders,5,High,Price drop alerts. Subscribe reminders. Delivery notifications.,amazon.com
 Amazon,Market Leader,Decision Support,48,Side-by-side comparisons,5,High,Product comparison tools. Similar items. Feature comparison tables.,amazon.com
-Amazon,Market Leader,Decision Support,49,Scenario tools (what-if analysis),1,Low,No scenario tools for shopping.,Extensive search conducted
+Amazon,Market Leader,Decision Support,49,Scenario tools (what-if analysis),2,Low,No scenario tools for shopping.,Extensive search conducted
 Amazon,Market Leader,Decision Support,50,Transparent cost breakdowns,5,High,Price clear. Shipping shown. Total before checkout.,amazon.com
 Amazon,Market Leader,Decision Support,51,Recommendations / next-best-actions,5,High,'AI algorithms suggest highly relatable content'. Recommendations pervasive. 78% use AI personalization.,Ecommerce UX 2025
 Amazon,Market Leader,Decision Support,52,Highlighting of risks/anomalies,3,Medium,Low stock warnings. Price increase alerts. Some risk indicators.,amazon.com
@@ -725,7 +725,7 @@ Aberdeen,Competitor,Social Proof & Belonging,43,Status indicators (badges certif
 Aberdeen,Competitor,Decision Support,44,Clear layered explanations,3,Medium,Fund information available. Help documentation. Some guidance.,aberdeenadviser.com
 Aberdeen,Competitor,Decision Support,45,Visualizations of complex info,3,Medium,Performance tracking charts. Full performance analysis with flexible fund charting.,aberdeenadviser.com
 Aberdeen,Competitor,Decision Support,46,In-context definitions/glossaries,1,Low,No inline definitions evident.,Extensive search conducted
-Aberdeen,Competitor,Decision Support,47,Time-anchored reminders,1,Low,Tax year-end reminders available. Limited other reminders.,aberdeenadviser.com
+Aberdeen,Competitor,Decision Support,47,Time-anchored reminders,2,Low,Tax year-end reminders available. Limited other reminders.,aberdeenadviser.com
 Aberdeen,Competitor,Decision Support,48,Side-by-side comparisons,3,Medium,Fund comparison available. Performance comparison tools.,aberdeenadviser.com
 Aberdeen,Competitor,Decision Support,49,Scenario tools (what-if analysis),5,High,'What If tool' explicitly mentioned. Drawdown calculators. Retirement expense calculator. CGT calculator.,aberdeenadviser.com
 Aberdeen,Competitor,Decision Support,50,Transparent cost breakdowns,3,Medium,Fee information available. Some complaints about lack of clarity during transfers.,Trustpilot
