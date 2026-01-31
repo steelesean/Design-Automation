@@ -46,6 +46,7 @@ const getScoreBg = (score) => {
 
 function App() {
   const [data, setData] = useState([])
+  const [peerReviewNotes, setPeerReviewNotes] = useState({})
   const [loading, setLoading] = useState(true)
   const [selectedTheme, setSelectedTheme] = useState('all')
   const [hoveredCell, setHoveredCell] = useState(null)
@@ -61,13 +62,24 @@ function App() {
   }
 
   useEffect(() => {
-    Papa.parse(import.meta.env.BASE_URL + 'audit-data.csv', {
-      download: true,
-      header: true,
-      complete: (results) => {
-        setData(results.data.filter(row => row.Company && row.Tactic_ID))
-        setLoading(false)
-      }
+    // Load both CSV and peer review notes
+    Promise.all([
+      new Promise((resolve) => {
+        Papa.parse(import.meta.env.BASE_URL + 'audit-data.csv', {
+          download: true,
+          header: true,
+          complete: (results) => {
+            resolve(results.data.filter(row => row.Company && row.Tactic_ID))
+          }
+        })
+      }),
+      fetch(import.meta.env.BASE_URL + 'peer-review-notes.json')
+        .then(res => res.json())
+        .catch(() => ({})) // Return empty object if file doesn't exist
+    ]).then(([csvData, notes]) => {
+      setData(csvData)
+      setPeerReviewNotes(notes)
+      setLoading(false)
     })
   }, [])
 
@@ -99,6 +111,14 @@ function App() {
       }
       tacticMap.get(key).scores[row.Company] = parseInt(row.Score)
       tacticMap.get(key).evidences[row.Company] = row.Evidence
+      // Add peer review note if exists
+      const noteKey = `${row.Company}|${row.Theme}|${row.Tactic_ID}`
+      if (peerReviewNotes[noteKey]) {
+        if (!tacticMap.get(key).peerReviews) {
+          tacticMap.get(key).peerReviews = {}
+        }
+        tacticMap.get(key).peerReviews[row.Company] = peerReviewNotes[noteKey]
+      }
     })
 
     let tactics = Array.from(tacticMap.values())
@@ -176,7 +196,7 @@ function App() {
       insights: { uncontested, battlegrounds, themeAvgs },
       companyStats
     }
-  }, [data, themes])
+  }, [data, themes, peerReviewNotes])
 
   // Filter by theme
   const filteredData = useMemo(() => {
@@ -443,6 +463,7 @@ function App() {
                         {companies.map(company => {
                           const score = tactic.scores[company]
                           const evidence = tactic.evidences[company]
+                          const peerReview = tactic.peerReviews?.[company]
                           const isHovered = hoveredCell?.tactic === tactic.tacticId && hoveredCell?.company === company
 
                           return (
@@ -453,7 +474,7 @@ function App() {
                                 background: getScoreBg(score),
                                 position: 'relative'
                               }}
-                              onMouseEnter={() => setHoveredCell({ tactic: tactic.tacticId, company, evidence, score, tacticName: tactic.tacticName })}
+                              onMouseEnter={() => setHoveredCell({ tactic: tactic.tacticId, company, evidence, score, tacticName: tactic.tacticName, peerReview })}
                               onMouseLeave={() => setHoveredCell(null)}
                             >
                               <span
@@ -462,10 +483,21 @@ function App() {
                               >
                                 {score || '-'}
                               </span>
+                              {peerReview && <span className="peer-review-indicator">*</span>}
                               {isHovered && evidence && (
                                 <div className="tooltip">
                                   <strong>{company}: {tactic.tacticName}</strong>
-                                  <p>{evidence}</p>
+                                  <div className="tooltip-section">
+                                    <span className="tooltip-label">Claude's Assessment:</span>
+                                    <p>{evidence}</p>
+                                  </div>
+                                  {peerReview && (
+                                    <div className="tooltip-section peer-review">
+                                      <span className="tooltip-label">Gemini Peer Review:</span>
+                                      <p className="score-change">Score adjusted: {peerReview.original_score} → {peerReview.new_score}</p>
+                                      <p>{peerReview.reason}</p>
+                                    </div>
+                                  )}
                                 </div>
                               )}
                             </td>

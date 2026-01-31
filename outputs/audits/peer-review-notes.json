@@ -1,0 +1,170 @@
+{
+  "Aviva|Ease of Use|2": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Evidence suggests confusion between policy and investment sites, indicating a less unified workspace"
+  },
+  "Aviva|Ease of Use|5": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Reports of app freezing and login issues detract from low-click flows"
+  },
+  "Aviva|Ease of Use|8": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Investment calculators and FAQs exist, but lack of prominent video tutorials reduces effectiveness"
+  },
+  "Quilter|Ease of Use|15": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Reports of transaction delays and fixed trading window indicate slower feedback"
+  },
+  "AJ Bell|Ease of Use|7": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Evidence only mentions 'basic validation on orders', doesn't warrant a 3"
+  },
+  "Monzo|Ease of Use|17": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "While balance is visible offline, most features require a connection"
+  },
+  "Wise|Ease of Use|7": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Evidence suggests validation 'could be improved'"
+  },
+  "AJ Bell|Ease of Use|18": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Has documented accessibility features including readable fonts, alt text, and screen reader support on 'many' pages"
+  },
+  "Aberdeen|Ease of Use|16": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Platform still functions for large user base despite reliability concerns"
+  },
+  "Aviva|Decision Support|49": {
+    "original_score": 5,
+    "new_score": 4,
+    "reviewer": "Gemini",
+    "reason": "Multiple calculators exist, but a 5 implies more sophisticated scenario planning than individual calculators"
+  },
+  "Revolut|Decision Support|53": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Rita chatbot is primarily for support, not drafting/summarizing"
+  },
+  "Transact|Decision Support|51": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Adviser-driven recommendations still provide a form of recommendation"
+  },
+  "Quilter|Decision Support|48": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Fund information displayed side-by-side could warrant slightly higher score"
+  },
+  "AJ Bell|Decision Support|47": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Other reminders might exist besides price alerts"
+  },
+  "Aberdeen|Decision Support|47": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Tax year-end reminders exist, not complete absence of reminders"
+  },
+  "Monzo|Decision Support|48": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Single bank view allows implicit comparison against other banks"
+  },
+  "Netflix|Decision Support|52": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Content warnings are present, not complete absence of risk highlighting"
+  },
+  "Amazon|Decision Support|49": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Adding items to cart and seeing total cost is a basic scenario tool"
+  },
+  "Wise|Decision Support|47": {
+    "original_score": 3,
+    "new_score": 4,
+    "reviewer": "Gemini",
+    "reason": "Rate alerts and transfer reminders are proactive and useful"
+  },
+  "Aviva|Emotional Design|28": {
+    "original_score": 3,
+    "new_score": 4,
+    "reviewer": "Gemini",
+    "reason": "Investment calculators showing projected outcomes and defined account setup steps suggest stronger sense of completion"
+  },
+  "Revolut|Emotional Design|26": {
+    "original_score": 1,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Customer support is a pain point, but chat support is available - not non-existent"
+  },
+  "Quilter|Emotional Design|26": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Customer service is available but no specific praise in evidence"
+  },
+  "AJ Bell|Emotional Design|29": {
+    "original_score": 5,
+    "new_score": 4,
+    "reviewer": "Gemini",
+    "reason": "Good for beginners but 5 seems high - Dodl is beginner-friendly, core platform might not be"
+  },
+  "Wise|Emotional Design|29": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "15-step registration flow and lack of progress indicators don't build confidence"
+  },
+  "Revolut|Emotional Design|24": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Some users find support impersonal, language not consistently friendly"
+  },
+  "Wise|Emotional Design|27": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Basic progress feedback and transfer completion celebrations are minimal"
+  },
+  "Amazon|Emotional Design|21": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Information-dense and not minimalist, not a particularly calm or clean design"
+  },
+  "Netflix|Emotional Design|24": {
+    "original_score": 3,
+    "new_score": 2,
+    "reviewer": "Gemini",
+    "reason": "Generally neutral tone and limited personalization don't strongly support a 3"
+  }
+}
